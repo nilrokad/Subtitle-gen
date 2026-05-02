@@ -397,9 +397,6 @@ export default function App() {
           </div>
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-4 text-xs font-bold uppercase tracking-widest text-slate-400">
-              <span className="flex items-center gap-1.5">
-                <Clock className="w-3.5 h-3.5" /> {stats.pending} Pending
-              </span>
               <span className="flex items-center gap-1.5 text-indigo-500">
                 <Loader2 className="w-3.5 h-3.5 animate-spin" /> {stats.active} Active
               </span>
